@@ -1,0 +1,20 @@
+print("welcome to use basicpy!")
+num=1
+write_list=[]
+command=input("basicpy command>")
+if command=="/output":
+  printer=input("please drop something to print>")
+  print("output:"+str(printer))
+if command=="/write":
+  line_num=0
+  print("now,you can write file(only one)")
+  line_num=0
+  while True:
+    get=input("line"+line_num)
+    line_num+=1
+    if get=="/save":
+      break
+    else:
+      write_list.append(get)
+ if command=="/watch":
+  print(write_list)
